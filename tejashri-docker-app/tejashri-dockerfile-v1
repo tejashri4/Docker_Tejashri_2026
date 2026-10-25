@@ -1,0 +1,5 @@
+FROM node:18
+WORKDIR /tejashri-app
+COPY tejashri-app-v1.js .
+CMD ["node", "tejashri-app-v1.js"]
+
